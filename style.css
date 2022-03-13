@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Josefin+Slab:wght@300;400;600&family=Kumbh+Sans:wght@400;700&family=Noto+Sans&family=Poppins:wght@400;500;600;700&family=Source+Sans+Pro&family=Space+Mono:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+}
+
+body {
+    background-image: url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+    font-size: 28px;
+    font-family: 'Dongle', sans-serif;
+    margin: 0 auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#title h1 {
+    display: inline-block;
+    color: rgb(255, 255, 255);
+}
+
+#description {
+    font-style: italic;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    line-height: 1.5rem;
+}
+
+main {
+    display: flex;
+    background-color: rgba(10, 2, 20, 0.938);
+    width: 100%;
+    height: 100%;
+    color: rgb(255, 255, 255);
+    padding-left: 40px;
+}
+
+input[type=email], input[type=number], input[type=name]{
+    width: 90%;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+}
+
+span {
+    padding-left: 10px;
+}
+
+select {
+    width: 90%;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+}
+
+textarea {
+    width: 85%;
+    height: 100px;
+    font-family: 'Noto Sans', sans-serif;
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    width: 90%;
+    color: rgb(255, 255, 255);
+    background-color: rgba(73, 161, 58, 0.986);
+    border: none;
+    height: 30px;
+}
+
+::placeholder {
+    padding-left: 15px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+
+@media only screen and (min-width: 768px) {
+    
+body {
+    font-size: 36px;
+}
+
+    #title {
+        width: 40%;
+        margin-left: 30%;
+    }
+
+    main {
+        width: 40%;
+        height: 100%;
+        margin-left: 28%;
+    }
+}
